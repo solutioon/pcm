@@ -10,8 +10,8 @@ I created an alias in bash_profile to load the script and logging the connection
 I created a csv vm.txt file, with the ip of each machine in every line, a fliendy name and a user:
 
 x.x.x.x,machinaname,user,
-172.16.98.236,ampbck01,agesteve,
-172.16.98.230,ampmgmt01,virtualmac,
+x.x.x.x,machinaname,user,
+x.x.x.x,machinaname,user,
 ...
 
 That's all.
