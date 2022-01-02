@@ -9,7 +9,7 @@ import termrecord
 
 os.system('clear') #al ser linux o mac
 
-fichero="/Users/agesteve/SSHACCESS/vm.txt"
+fichero="/Users/path/SSHACCESS/vm.txt"
 
 
 #print(linea)
