@@ -2,9 +2,22 @@
 import os
 #https://stackabuse.com/executing-shell-commands-with-python/
 import subprocess
-import termrecord
+#import termrecord
 
 #TermRecord -o term-record.html
+
+
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 
 
 os.system('clear') #al ser linux o mac
@@ -18,7 +31,7 @@ fichero="/Users/path/SSHACCESS/vm.txt"
 
 numlinea=1
 
-print("SELECCIONA OPCIÓN DE SERVIDOR")
+print(bcolors.HEADER + "SELECCIONA OPCIÓN DE SERVIDOR"+bcolors.ENDC)
 print()
 
 f = open(fichero, "r")
