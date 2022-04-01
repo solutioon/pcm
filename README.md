@@ -1,7 +1,7 @@
 # PCM
 Python Connection Manager
 
-When I started using MAC I missed putty connection manager. I decided I didn't want a complex tool, just needed a simple script to connect fastly to the list of machines I had in a file, and I also wanted to store the session automatically.
+When I started using MAC I missed putty connection manager. I decided I didn't want such a complex tool, just needed a simple script to connect fastly to the list of machines I had in a file, and I also wanted to store the session automatically.
 
 This is the beginning and the mission of Python Connection Manager.
 
