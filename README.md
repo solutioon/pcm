@@ -6,7 +6,7 @@ When I started using MAC I missed putty connection manager. I decided I didn't w
 This is the beginning and the mission of Python Connection Manager.
 
 I created an alias in bash_profile to load the script and logging the connection as: alias pcm='python3 /path/pcm.py | tee /path/sesionlog.txt'
-To do it: vi ~/.bash_profile
+To do it: nano . zshrc
 
 I created a csv vm.txt file, with the ip of each machine in every line, a fliendy name and a user:
 
